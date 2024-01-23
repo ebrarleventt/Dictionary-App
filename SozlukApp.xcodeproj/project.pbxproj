@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F04AC82B5FF9E200E405D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AC72B5FF9E200E405D8 /* AppDelegate.swift */; };
+		27F04ACA2B5FF9E200E405D8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AC92B5FF9E200E405D8 /* SceneDelegate.swift */; };
+		27F04ACC2B5FF9E200E405D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04ACB2B5FF9E200E405D8 /* ViewController.swift */; };
+		27F04ACF2B5FF9E200E405D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F04ACD2B5FF9E200E405D8 /* Main.storyboard */; };
+		27F04AD12B5FF9E300E405D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F04AD02B5FF9E300E405D8 /* Assets.xcassets */; };
+		27F04AD42B5FF9E300E405D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F04AD22B5FF9E300E405D8 /* LaunchScreen.storyboard */; };
+		27F04ADF2B5FF9E300E405D8 /* SozlukAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04ADE2B5FF9E300E405D8 /* SozlukAppTests.swift */; };
+		27F04AE92B5FF9E300E405D8 /* SozlukAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AE82B5FF9E300E405D8 /* SozlukAppUITests.swift */; };
+		27F04AEB2B5FF9E300E405D8 /* SozlukAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AEA2B5FF9E300E405D8 /* SozlukAppUITestsLaunchTests.swift */; };
+		27F04AFA2B5FFB8100E405D8 /* KelimeCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AF92B5FFB8100E405D8 /* KelimeCellTableViewCell.swift */; };
+		27F04AFC2B5FFCF300E405D8 /* KelimeDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AFB2B5FFCF300E405D8 /* KelimeDetayViewController.swift */; };
+		27F04AFE2B5FFDCC00E405D8 /* Kelimeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04AFD2B5FFDCC00E405D8 /* Kelimeler.swift */; };
+		27F04B162B60202400E405D8 /* KelimelerDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B152B60202400E405D8 /* KelimelerDao.swift */; };
+		27F04B1C2B605ABE00E405D8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F04B002B601F1000E405D8 /* libsqlite3.tbd */; };
+		27F04B1E2B605AE500E405D8 /* sozluk.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27F04B1D2B605AE500E405D8 /* sozluk.sqlite */; };
+		27F04B2A2B605C9C00E405D8 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B212B605C9C00E405D8 /* FMDatabaseQueue.m */; };
+		27F04B2B2B605C9C00E405D8 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B222B605C9C00E405D8 /* FMResultSet.m */; };
+		27F04B2C2B605C9C00E405D8 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B232B605C9C00E405D8 /* FMDatabaseAdditions.m */; };
+		27F04B2D2B605C9C00E405D8 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B242B605C9C00E405D8 /* FMDatabase.m */; };
+		27F04B2E2B605C9C00E405D8 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F04B272B605C9C00E405D8 /* FMDatabasePool.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27F04ADB2B5FF9E300E405D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F04ABC2B5FF9E100E405D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F04AC32B5FF9E200E405D8;
+			remoteInfo = SozlukApp;
+		};
+		27F04AE52B5FF9E300E405D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F04ABC2B5FF9E100E405D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F04AC32B5FF9E200E405D8;
+			remoteInfo = SozlukApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27F04AC42B5FF9E200E405D8 /* SozlukApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SozlukApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F04AC72B5FF9E200E405D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27F04AC92B5FF9E200E405D8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27F04ACB2B5FF9E200E405D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		27F04ACE2B5FF9E200E405D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F04AD02B5FF9E300E405D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27F04AD32B5FF9E300E405D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27F04AD52B5FF9E300E405D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F04ADA2B5FF9E300E405D8 /* SozlukAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F04ADE2B5FF9E300E405D8 /* SozlukAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppTests.swift; sourceTree = "<group>"; };
+		27F04AE42B5FF9E300E405D8 /* SozlukAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SozlukAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F04AE82B5FF9E300E405D8 /* SozlukAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppUITests.swift; sourceTree = "<group>"; };
+		27F04AEA2B5FF9E300E405D8 /* SozlukAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SozlukAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		27F04AF92B5FFB8100E405D8 /* KelimeCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeCellTableViewCell.swift; sourceTree = "<group>"; };
+		27F04AFB2B5FFCF300E405D8 /* KelimeDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimeDetayViewController.swift; sourceTree = "<group>"; };
+		27F04AFD2B5FFDCC00E405D8 /* Kelimeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kelimeler.swift; sourceTree = "<group>"; };
+		27F04B002B601F1000E405D8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		27F04B022B601F6D00E405D8 /* SozlukApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SozlukApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		27F04B152B60202400E405D8 /* KelimelerDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KelimelerDao.swift; sourceTree = "<group>"; };
+		27F04B1D2B605AE500E405D8 /* sozluk.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = sozluk.sqlite; sourceTree = "<group>"; };
+		27F04B1F2B605C9C00E405D8 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		27F04B202B605C9C00E405D8 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		27F04B212B605C9C00E405D8 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		27F04B222B605C9C00E405D8 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		27F04B232B605C9C00E405D8 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		27F04B242B605C9C00E405D8 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		27F04B252B605C9C00E405D8 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		27F04B262B605C9C00E405D8 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		27F04B272B605C9C00E405D8 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		27F04B282B605C9C00E405D8 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		27F04B292B605C9C00E405D8 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F04AC12B5FF9E200E405D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F04B1C2B605ABE00E405D8 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AD72B5FF9E300E405D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AE12B5FF9E300E405D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F04ABB2B5FF9E100E405D8 = {
+			isa = PBXGroup;
+			children = (
+				27F04AC62B5FF9E200E405D8 /* SozlukApp */,
+				27F04ADD2B5FF9E300E405D8 /* SozlukAppTests */,
+				27F04AE72B5FF9E300E405D8 /* SozlukAppUITests */,
+				27F04AC52B5FF9E200E405D8 /* Products */,
+				27F04AFF2B601F1000E405D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		27F04AC52B5FF9E200E405D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F04AC42B5FF9E200E405D8 /* SozlukApp.app */,
+				27F04ADA2B5FF9E300E405D8 /* SozlukAppTests.xctest */,
+				27F04AE42B5FF9E300E405D8 /* SozlukAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F04AC62B5FF9E200E405D8 /* SozlukApp */ = {
+			isa = PBXGroup;
+			children = (
+				27F04B1D2B605AE500E405D8 /* sozluk.sqlite */,
+				27F04B252B605C9C00E405D8 /* FMDatabase.h */,
+				27F04B242B605C9C00E405D8 /* FMDatabase.m */,
+				27F04B202B605C9C00E405D8 /* FMDatabaseAdditions.h */,
+				27F04B232B605C9C00E405D8 /* FMDatabaseAdditions.m */,
+				27F04B262B605C9C00E405D8 /* FMDatabasePool.h */,
+				27F04B272B605C9C00E405D8 /* FMDatabasePool.m */,
+				27F04B282B605C9C00E405D8 /* FMDatabaseQueue.h */,
+				27F04B212B605C9C00E405D8 /* FMDatabaseQueue.m */,
+				27F04B1F2B605C9C00E405D8 /* FMDB.h */,
+				27F04B292B605C9C00E405D8 /* FMResultSet.h */,
+				27F04B222B605C9C00E405D8 /* FMResultSet.m */,
+				27F04AC72B5FF9E200E405D8 /* AppDelegate.swift */,
+				27F04AC92B5FF9E200E405D8 /* SceneDelegate.swift */,
+				27F04ACB2B5FF9E200E405D8 /* ViewController.swift */,
+				27F04AFD2B5FFDCC00E405D8 /* Kelimeler.swift */,
+				27F04ACD2B5FF9E200E405D8 /* Main.storyboard */,
+				27F04AD02B5FF9E300E405D8 /* Assets.xcassets */,
+				27F04AD22B5FF9E300E405D8 /* LaunchScreen.storyboard */,
+				27F04AD52B5FF9E300E405D8 /* Info.plist */,
+				27F04AF92B5FFB8100E405D8 /* KelimeCellTableViewCell.swift */,
+				27F04AFB2B5FFCF300E405D8 /* KelimeDetayViewController.swift */,
+				27F04B022B601F6D00E405D8 /* SozlukApp-Bridging-Header.h */,
+				27F04B152B60202400E405D8 /* KelimelerDao.swift */,
+			);
+			path = SozlukApp;
+			sourceTree = "<group>";
+		};
+		27F04ADD2B5FF9E300E405D8 /* SozlukAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				27F04ADE2B5FF9E300E405D8 /* SozlukAppTests.swift */,
+			);
+			path = SozlukAppTests;
+			sourceTree = "<group>";
+		};
+		27F04AE72B5FF9E300E405D8 /* SozlukAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				27F04AE82B5FF9E300E405D8 /* SozlukAppUITests.swift */,
+				27F04AEA2B5FF9E300E405D8 /* SozlukAppUITestsLaunchTests.swift */,
+			);
+			path = SozlukAppUITests;
+			sourceTree = "<group>";
+		};
+		27F04AFF2B601F1000E405D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F04B002B601F1000E405D8 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F04AC32B5FF9E200E405D8 /* SozlukApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F04AEE2B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukApp" */;
+			buildPhases = (
+				27F04AC02B5FF9E200E405D8 /* Sources */,
+				27F04AC12B5FF9E200E405D8 /* Frameworks */,
+				27F04AC22B5FF9E200E405D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SozlukApp;
+			productName = SozlukApp;
+			productReference = 27F04AC42B5FF9E200E405D8 /* SozlukApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27F04AD92B5FF9E300E405D8 /* SozlukAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F04AF12B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukAppTests" */;
+			buildPhases = (
+				27F04AD62B5FF9E300E405D8 /* Sources */,
+				27F04AD72B5FF9E300E405D8 /* Frameworks */,
+				27F04AD82B5FF9E300E405D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F04ADC2B5FF9E300E405D8 /* PBXTargetDependency */,
+			);
+			name = SozlukAppTests;
+			productName = SozlukAppTests;
+			productReference = 27F04ADA2B5FF9E300E405D8 /* SozlukAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		27F04AE32B5FF9E300E405D8 /* SozlukAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F04AF42B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukAppUITests" */;
+			buildPhases = (
+				27F04AE02B5FF9E300E405D8 /* Sources */,
+				27F04AE12B5FF9E300E405D8 /* Frameworks */,
+				27F04AE22B5FF9E300E405D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F04AE62B5FF9E300E405D8 /* PBXTargetDependency */,
+			);
+			name = SozlukAppUITests;
+			productName = SozlukAppUITests;
+			productReference = 27F04AE42B5FF9E300E405D8 /* SozlukAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F04ABC2B5FF9E100E405D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					27F04AC32B5FF9E200E405D8 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+					27F04AD92B5FF9E300E405D8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 27F04AC32B5FF9E200E405D8;
+					};
+					27F04AE32B5FF9E300E405D8 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 27F04AC32B5FF9E200E405D8;
+					};
+				};
+			};
+			buildConfigurationList = 27F04ABF2B5FF9E100E405D8 /* Build configuration list for PBXProject "SozlukApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F04ABB2B5FF9E100E405D8;
+			productRefGroup = 27F04AC52B5FF9E200E405D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F04AC32B5FF9E200E405D8 /* SozlukApp */,
+				27F04AD92B5FF9E300E405D8 /* SozlukAppTests */,
+				27F04AE32B5FF9E300E405D8 /* SozlukAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F04AC22B5FF9E200E405D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F04AD42B5FF9E300E405D8 /* LaunchScreen.storyboard in Resources */,
+				27F04B1E2B605AE500E405D8 /* sozluk.sqlite in Resources */,
+				27F04AD12B5FF9E300E405D8 /* Assets.xcassets in Resources */,
+				27F04ACF2B5FF9E200E405D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AD82B5FF9E300E405D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AE22B5FF9E300E405D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F04AC02B5FF9E200E405D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F04AFE2B5FFDCC00E405D8 /* Kelimeler.swift in Sources */,
+				27F04B2E2B605C9C00E405D8 /* FMDatabasePool.m in Sources */,
+				27F04B2A2B605C9C00E405D8 /* FMDatabaseQueue.m in Sources */,
+				27F04ACC2B5FF9E200E405D8 /* ViewController.swift in Sources */,
+				27F04AFC2B5FFCF300E405D8 /* KelimeDetayViewController.swift in Sources */,
+				27F04AC82B5FF9E200E405D8 /* AppDelegate.swift in Sources */,
+				27F04AFA2B5FFB8100E405D8 /* KelimeCellTableViewCell.swift in Sources */,
+				27F04B2B2B605C9C00E405D8 /* FMResultSet.m in Sources */,
+				27F04ACA2B5FF9E200E405D8 /* SceneDelegate.swift in Sources */,
+				27F04B162B60202400E405D8 /* KelimelerDao.swift in Sources */,
+				27F04B2D2B605C9C00E405D8 /* FMDatabase.m in Sources */,
+				27F04B2C2B605C9C00E405D8 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AD62B5FF9E300E405D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F04ADF2B5FF9E300E405D8 /* SozlukAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F04AE02B5FF9E300E405D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F04AEB2B5FF9E300E405D8 /* SozlukAppUITestsLaunchTests.swift in Sources */,
+				27F04AE92B5FF9E300E405D8 /* SozlukAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F04ADC2B5FF9E300E405D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F04AC32B5FF9E200E405D8 /* SozlukApp */;
+			targetProxy = 27F04ADB2B5FF9E300E405D8 /* PBXContainerItemProxy */;
+		};
+		27F04AE62B5FF9E300E405D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F04AC32B5FF9E200E405D8 /* SozlukApp */;
+			targetProxy = 27F04AE52B5FF9E300E405D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F04ACD2B5FF9E200E405D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F04ACE2B5FF9E200E405D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F04AD22B5FF9E300E405D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F04AD32B5FF9E300E405D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F04AEC2B5FF9E300E405D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27F04AED2B5FF9E300E405D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F04AEF2B5FF9E300E405D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SozlukApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukApp/SozlukApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27F04AF02B5FF9E300E405D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SozlukApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SozlukApp/SozlukApp-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		27F04AF22B5FF9E300E405D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SozlukApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SozlukApp";
+			};
+			name = Debug;
+		};
+		27F04AF32B5FF9E300E405D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SozlukApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SozlukApp";
+			};
+			name = Release;
+		};
+		27F04AF52B5FF9E300E405D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SozlukApp;
+			};
+			name = Debug;
+		};
+		27F04AF62B5FF9E300E405D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.SozlukAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SozlukApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F04ABF2B5FF9E100E405D8 /* Build configuration list for PBXProject "SozlukApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F04AEC2B5FF9E300E405D8 /* Debug */,
+				27F04AED2B5FF9E300E405D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F04AEE2B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F04AEF2B5FF9E300E405D8 /* Debug */,
+				27F04AF02B5FF9E300E405D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F04AF12B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F04AF22B5FF9E300E405D8 /* Debug */,
+				27F04AF32B5FF9E300E405D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F04AF42B5FF9E300E405D8 /* Build configuration list for PBXNativeTarget "SozlukAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F04AF52B5FF9E300E405D8 /* Debug */,
+				27F04AF62B5FF9E300E405D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F04ABC2B5FF9E100E405D8 /* Project object */;
+}
